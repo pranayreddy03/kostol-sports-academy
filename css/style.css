@@ -1,0 +1,103 @@
+#showcase .carousel-item
+{
+    height: 450px;
+}
+#showcase .carousel-image-1
+{
+    background: url("../images/homeCarousel31.jpeg");
+    background-size: cover;
+}
+#showcase .carousel-image-2
+{
+    background: url("../images/homeCarousel2.jpeg");
+    background-size: cover;
+}
+#showcase .carousel-image-3
+{
+    background: url("../images/home3.jpeg");
+    background-size: cover;
+}
+.fa
+{
+    font-size: 55px;
+}
+#homeHeading
+{
+    position: relative;
+    min-height: 200px;
+    background: url('../images/homeHeading.jpeg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+}
+#homeHeading .dark-overlay
+{
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#aboutUsHeader .dark-overlay
+{
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#homeVideo
+{
+    position: relative;
+    min-height: 200px;
+    background: url("../images/homeVideo.jpeg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+}
+#homeVideo .dark-overlay
+{
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#homeFooter,#aboutFooter
+{
+    background: black;
+    color: white;
+}
+#aboutUsHeader
+{
+    position: relative;
+    min-height: 200px;
+    background: url('../images/aboutUsOverlay.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #fff;
+    border-bottom: 1px #eee solid;
+}
+.aboutImage
+{
+    width: 400px;
+    height: 400px;
+}
+@media (max-width: 576px) {
+    .aboutUsBoxesCard
+    {
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 576px) {
+    .service
+    {
+        margin-bottom: 10px;
+    }
+}
